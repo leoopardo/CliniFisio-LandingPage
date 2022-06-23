@@ -10,13 +10,13 @@ export function NavBar(){
         <ul className="NavUl">
           <li className="li1">
             <h6>
-              <Nav.Link style={{textdDcoration: "none", color: "#64978B", fontSize: "14px", fontWeight: "600", padding: "0"}} href="https://api.whatsapp.com/send?phone=554591451430&app=facebook&entry_point=page_cta&fbclid=IwAR0-jamJQIsFuAl3LMSuPjQSmvp3AVOWUyEfooZ730PB8JWe-euVQNwlHY8" className="link">
+              <Nav.Link style={{color: "#64978B", padding: "0"}} href="https://api.whatsapp.com/send?phone=554591451430&app=facebook&entry_point=page_cta&fbclid=IwAR0-jamJQIsFuAl3LMSuPjQSmvp3AVOWUyEfooZ730PB8JWe-euVQNwlHY8" className="link">
                 WhatsApp
               </Nav.Link>
             </h6>
           </li>
-          <li className="li2"><h6><Link to="/sobrenos" className="link">Sobre nós</Link></h6></li>
-          <li><h6><Link to="/tratamentos" className="link">Tratamentos</Link></h6></li>
+          <li ><h6><Link to="/sobrenos" className="link">Sobre nós</Link></h6></li>
+          <li ><h6><Link to="/tratamentos" className="link">Tratamentos</Link></h6></li>
         </ul>
       </div>
     </>

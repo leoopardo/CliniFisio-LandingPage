@@ -1,35 +1,67 @@
 .logoCliniFisio{
-    height: 60px;
-    width: 120px;
+    height: 80px;
+    width: 150px;
     padding-right: 1%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .NavBar{
-    height: 60px;
+    height: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .NavUl{
     list-style: none;
     display: flex;
 }
 h6{
-    width: 70px;
+    width: 90px;
 }
 .link{
     text-decoration: none;
     color: #64978B;
-    font-size: 14px; 
+    font-size: 20px; 
     font-weight: 600;
-   
+    padding: 0;
+}
+.NavLink{
+    text-decoration: "none";
+    color: #64978B;
+    font-size: 20px;
+    font-weight: "600";
+    padding: 0
 }
 li{
     height: 0px;
    width: 100px;
    margin: 10%;
 }
-.li1{
-    margin-left: 40%;
-}
-.l12{
-    width: 1000px;
-}
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    .logoCliniFisio{
+        height: 50px;
+        width: 110px;
+    }
+    .NavBar{
+        height: 60px;
+    }
+
+    h6{
+        width: 60px;
+    }
+    .link{
+        text-decoration: none;
+        color: #64978B;
+        font-size: 14px; 
+        font-weight: 800;
+        padding: 0; 
+       
+    }
+    li{
+        height: 0px;
+       width: 70px;
+       margin: 7%;
+    }
+  }

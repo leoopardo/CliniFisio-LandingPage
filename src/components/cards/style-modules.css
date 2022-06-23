@@ -1,0 +1,38 @@
+.cardBox{
+    border-radius: 10%;
+    margin: 10px;
+    height: 200px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;  
+}
+.imgNotHover{
+    background: linear-gradient(0deg, #3c917d99, #3c917d99);
+    height: 120px;
+    width: 120px;
+    border-radius: 83px;
+}
+
+.imgOnHover{
+    background: linear-gradient(0deg, #3c917d99, #3c917d99);
+    height: 140px;
+    width: 140px;
+    border-radius: 83px;
+}
+.cardName{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    .cardBox{
+        margin: 10px;
+        height: 150px;
+        width: 160px;
+    }
+  }

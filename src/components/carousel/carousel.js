@@ -8,7 +8,7 @@ export function SecCarousel() {
         <Carousel>
                 <Carousel.Item >
                     <img
-                    style={{width: "700px", height: "280px", borderRadius: "20px"}}
+                    id="carouselImg"
                     className="d-flex justify-content-center"
                     src={cuidando}  
                     
@@ -20,7 +20,7 @@ export function SecCarousel() {
                 </Carousel.Item>
                 <Carousel.Item >
                     <img
-                    style={{width: "700px", height: "280px", borderRadius: "20px"}}
+                    id="carouselImg"
                     className="d-flex justify-content-center"
                     src={seuCorpo}
                     alt="Second slide"
@@ -31,7 +31,7 @@ export function SecCarousel() {
                 </Carousel.Item>
                 <Carousel.Item >
                     <img
-                    style={{width: "700px", height: "280px", borderRadius: "20px", }}
+                    id="carouselImg"
                     className="d-flex justify-content-center"
                     src={pilates}
                     alt="Third slide"

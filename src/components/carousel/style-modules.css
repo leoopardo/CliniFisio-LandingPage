@@ -1,8 +1,15 @@
-.seuCorpo{
-    height: 280px;
+#carouselImg{
     width: 700px;
+    height: 280px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 .box{
-    display: flex;
-    
+    display: flex; 
 }
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    #carouselImg{
+        height: 200px;
+        max-width: 350px;
+    }
+  }

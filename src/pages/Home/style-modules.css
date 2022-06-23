@@ -1,5 +1,23 @@
 section{
     height: 350px;
-    background-color: #0A0504;
+    background-color: #0a0504be;
     padding-top: 2%;
 }
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    section{
+        height: 270px;
+        background-color: #0a0504be;
+        padding-top: 2%;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
