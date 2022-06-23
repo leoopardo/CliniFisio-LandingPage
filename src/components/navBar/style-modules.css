@@ -1,0 +1,35 @@
+.logoCliniFisio{
+    height: 60px;
+    width: 120px;
+    padding-right: 1%;
+}
+.NavBar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.NavUl{
+    list-style: none;
+    display: flex;
+}
+h6{
+    width: 70px;
+}
+.link{
+    text-decoration: none;
+    color: #64978B;
+    font-size: 14px; 
+    font-weight: 600;
+   
+}
+li{
+    height: 0px;
+   width: 100px;
+   margin: 10%;
+}
+.li1{
+    margin-left: 40%;
+}
+.l12{
+    width: 1000px;
+}
